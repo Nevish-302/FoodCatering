@@ -1,0 +1,4 @@
+/* Custom styles for the floating Contact Us button */
+button.fixed {
+  transition: background-color 0.3s ease;
+}

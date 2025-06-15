@@ -1,0 +1,40 @@
+{
+  "currentTheme": "dark",
+  "themes": {
+    "default": {
+      "primary": "#16a34a",
+      "secondary": "#2563eb",
+      "accent": "#f59e42",
+      "background": "#ffffff",
+      "highlight": "#f1f5f9"
+    },
+    "dark": {
+      "primary": "#0f172a",
+      "secondary": "#334155",
+      "accent": "#fbbf24",
+      "background": "#18181b",
+      "highlight": "#27272a"
+    },
+    "sunset": {
+      "primary": "#ea580c",
+      "secondary": "#fbbf24",
+      "accent": "#f472b6",
+      "background": "#fff7ed",
+      "highlight": "#fed7aa"
+    },
+    "sage": {
+      "primary": "#A3B18A",
+      "secondary": "#D77A61",
+      "accent": "#3A4D39",
+      "background": "#FDF6EC",
+      "highlight": "#C38D94"
+    },
+    "blush": {
+      "primary": "#F8E1E7",
+      "secondary": "#D4AF37",
+      "accent": "#333333",
+      "background": "#FFFAF0",
+      "highlight": "#D8A7B1"
+    }
+  }
+} 

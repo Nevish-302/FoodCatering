@@ -1,0 +1,15 @@
+{
+  "currentTheme": "default",
+  "themes": {
+    "default": {
+      "primary": "#F4A261",
+      "secondary": "#2A9D8F",
+      "accent": "#E76F51",
+      "background": "#FFFFFF",
+      "highlight": "#FAFAFA",
+      "textPrimary": "#333333",
+      "textSecondary": "#777777",
+      "border": "#E0E0E0"
+    }
+  }
+} 
