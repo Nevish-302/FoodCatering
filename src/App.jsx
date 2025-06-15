@@ -24,8 +24,8 @@ function Footer() {
         {/* Logo and background */}
         <div className="flex-1 flex flex-col items-center md:items-start mb-8 md:mb-0">
           <div className="mb-4">
-            <img src="/logo-footer.png" alt="Khomchaa Logo" className="h-16" onError={e => e.target.style.display='none'} />
-            <div className="text-2xl font-bold tracking-widest mt-2 text-[var(--color-secondary)]">KHOMCHAA</div>
+            <img src="/logo-footer.png" alt="deepak Logo" className="h-16" onError={e => e.target.style.display='none'} />
+            <div className="text-2xl font-bold tracking-widest mt-2 text-[var(--color-secondary)]">deepak</div>
             <div className="text-[var(--color-accent)] text-xs tracking-widest">THE CHAAT CULTURE</div>
           </div>
         </div>
@@ -57,7 +57,7 @@ function Footer() {
             <div className="flex items-center gap-2">
               <MailIcon className="w-5 h-5 text-[var(--color-accent)]" />
               <span className="font-semibold text-[var(--color-secondary)]">Email:</span>
-              <span className="text-[var(--color-secondary)]">info@khomchaa.com</span>
+              <span className="text-[var(--color-secondary)]">info@deepak.com</span>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ function Footer() {
       {/* Copyright and site by */}
       <div className="container mx-auto px-4 mt-10 flex flex-col md:flex-row justify-between items-center border-t border-[var(--color-accent)] pt-6 bg-[var(--color-accent)] bg-opacity-80">
         <div className="flex items-center gap-2">
-          <span className="text-[var(--color-secondary)] font-bold">&copy; 2025 - KHOMCHAA</span>
+          <span className="text-[var(--color-secondary)] font-bold">&copy; 2025 - deepak</span>
           <span className="ml-2 text-[var(--color-secondary)]">All Rights Reserved</span>
         </div>
         <div className="flex items-center gap-2 mt-2 md:mt-0">
@@ -122,7 +122,7 @@ function Navbar() {
       </div>
       {/* Mobile Menu Overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 z-40 bg-black bg-opacity-60 backdrop-blur-sm flex flex-col md:hidden transition-all duration-300">
+        <div className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm flex flex-col md:hidden transition-all duration-300">
           <div className="flex justify-end p-4">
             <button
               className="p-2 rounded-lg hover:bg-white hover:bg-opacity-10 focus:outline-none text-gray-200"
@@ -132,7 +132,7 @@ function Navbar() {
               <X className="w-7 h-7" />
             </button>
           </div>
-          <ul className="flex flex-col items-center gap-8 mt-8">
+          <ul className="flex bg-black/60 flex-col items-center gap-8 mt-8">
             {navLinks.map((link) => (
               <li key={link.to}>
                 <NavLink
